@@ -37,7 +37,7 @@ public class LocationPage  extends AbstractPage{
     @FindBy(xpath = "//div//form//div//button[@id='pr_quick_edit_button']")
     private WebElement buttonSave;
 
-    @FindBy(xpath = "//span[@class='pr-city']//a[text()='Минск, Беларусь']")
+    @FindBy(xpath = "//span[@class='pr-city']//a[@href='/search?city_id=282']")
     private WebElement textLocation;
 
 
